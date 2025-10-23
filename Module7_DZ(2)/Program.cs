@@ -59,8 +59,6 @@ namespace TemplateMethodDemo
             Console.WriteLine("\nПриготовим кофе:");
             var coffee = new Coffee();
             coffee.PrepareRecipe();
-
-            Console.WriteLine("\nКонец демонстрации шаблонного метода.");
         }
     }
 }
